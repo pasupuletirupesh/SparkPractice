@@ -19,9 +19,6 @@ ratingsDF = spark.read.options(header="True", inferSchema="True").csv("/FileStor
 
 display(moviesDF)
 
-# COMMAND ----------
-
-display(ratingsDF)
 
 # COMMAND ----------
 
